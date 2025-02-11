@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: HockeySDK-iOS
+  description: The official iOS SDK for the HockeyApp service
+  annotations:
+    business-unit: EverHealth
+    github.com/project-slug: drchrono/HockeySDK-iOS
+    product: DRC
+spec:
+  type: service
+  lifecycle: production
+  owner: EverHealth
+  implementation:
+    languages: []
